@@ -2,11 +2,11 @@ Frontend signup feature developed in React + TypeScript + Vite
 
 To install the project, clone and then use following cmds in terminal:
 
-yarn install
+`npm install --force`
 
 then
 
-yarn run dev
+`npm run dev`
 
 This repo contains a sign up feature in frontend using the following:
 
