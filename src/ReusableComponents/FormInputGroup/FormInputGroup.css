@@ -1,0 +1,21 @@
+.form-control-group {
+  margin-bottom: 20px;
+}
+.form-control-group label {
+  font-size: 14px;
+  color: #344054;
+}
+
+.form-control-group input {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  background: #f9fafb;
+}
+
+.form-control-group .p-inputgroup-addon {
+  margin-top: 5px;
+  background-color: white;
+  height: 40px;
+  font-size: 12px;
+}

@@ -1,0 +1,42 @@
+._53Ji7 {
+  padding: -0.5rem;
+}
+
+._3uApM {
+  display: none;
+}
+
+._2Jtxm ._1hzhf {
+  font-size: 13px;
+
+  margin-top: 10px;
+  width: 100%;
+}
+
+._35Ago ._1hzhf {
+  color: #7244c8;
+  font-weight: bold;
+}
+
+._2Jtxm ._1ixJ3 {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #344054;
+  font-weight: 100;
+}
+
+._2Jtxm::before {
+  background: linear-gradient(to left, #e7eaf3 50%, purple 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+._2Jtxm._35Ago ._2kL0S {
+  background-color: #7244c8;
+}
+
+._2Jtxm ._2kL0S,
+._2Jtxm ._2JvrO {
+  width: 2rem;
+  height: 2rem;
+}

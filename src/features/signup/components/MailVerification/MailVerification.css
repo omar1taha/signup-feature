@@ -1,0 +1,46 @@
+.mailicon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.mailVerify h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.mailVerify p {
+  color: #475467;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.number-input {
+  width: 300px !important;
+  margin: 10px auto;
+}
+
+.number-input input {
+  margin-right: 22px;
+  border: 1px solid #d0d5dd !important;
+  border-radius: 10px !important;
+  border-right: 1px solid #d0d5dd !important;
+  font-size: 32px !important;
+  color: #7244c8 !important;
+  font-family: Inter, sans-serif !important;
+}
+
+.number-input input:last-child {
+  margin-right: 0;
+}
+
+.backBtn {
+  background: none;
+  border: none;
+  text-align: center;
+  margin: 10px auto;
+  display: block;
+}

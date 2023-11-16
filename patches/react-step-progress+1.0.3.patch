@@ -1,0 +1,40 @@
+diff --git a/node_modules/react-step-progress/dist/index.modern.js b/node_modules/react-step-progress/dist/index.modern.js
+index d2e0861..b6878cf 100644
+--- a/node_modules/react-step-progress/dist/index.modern.js
++++ b/node_modules/react-step-progress/dist/index.modern.js
+@@ -54,11 +54,11 @@ function StepProgressBar(props) {
+     dispatch({
+       type: 'init',
+       payload: {
+-        index: currentIndex,
++        index: startingStep,
+         state: StepStates.CURRENT
+       }
+     });
+-  }, []);
++  }, [startingStep]);
+ 
+   function submitHandler() {
+     onSubmit();
+diff --git a/node_modules/react-step-progress/dist/models/index.d.ts b/node_modules/react-step-progress/dist/models/index.d.ts
+index 668e68c..3e37233 100644
+--- a/node_modules/react-step-progress/dist/models/index.d.ts
++++ b/node_modules/react-step-progress/dist/models/index.d.ts
+@@ -10,7 +10,7 @@ export interface ProgressStep {
+     subtitle?: string;
+     name: string;
+     state?: StepStates;
+-    content: React.ReactNode;
++    content?: React.ReactNode;
+     validator?: (payload?: any) => boolean;
+ }
+ export interface StepProgressProps {
+@@ -26,7 +26,7 @@ export interface StepProgressProps {
+     primaryBtnClass?: string;
+     secondaryBtnClass?: string;
+     submitBtnName?: string;
+-    onSubmit: Function;
++    onSubmit?: Function;
+     previousBtnName?: string;
+     nextBtnName?: string;
+ }

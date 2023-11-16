@@ -1,0 +1,19 @@
+.container {
+  width: 55%;
+  margin: 30px auto;
+}
+
+.link-btn {
+  display: block;
+  text-decoration: none;
+  color: #475467;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.link-btn span {
+  color: #6941c6;
+  font-size: 14px;
+  font-weight: bold;
+}

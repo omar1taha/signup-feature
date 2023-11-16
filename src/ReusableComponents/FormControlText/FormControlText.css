@@ -1,0 +1,21 @@
+.form-control {
+  margin-bottom: 15px;
+}
+.form-control label {
+  font-size: 14px;
+  color: #344054;
+}
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  background: #f9fafb;
+  border: 0.5px solid darkgray;
+  border-radius: 10px;
+}
+
+.form-control .subtitle {
+  font-size: 14px;
+  color: #475467;
+  margin-top: 10px;
+}
